@@ -22,7 +22,7 @@ This is a python notebook, so you can easily launch it on your computer.
 It's pretty straightforward.
 
 * Use Dlib facial landmark detection for face position and eye extraction
-* Use [Fabian Timm methods](https://www.inb.uni-luebeck.de/fileadmin/files/PUBPDFS/TiBa11b.pdf) to find pupils.
+* Use [Fabian Timm methods](https://www.researchgate.net/publication/221415814_Accurate_Eye_Centre_Localisation_by_Means_of_Gradients) to find pupils.
 * Find eye rotation matrix (using pupils and eye corners) and face rotation matrix (from facial landmarks) using PNP solving (see [here](https://www.morethantechnical.com/2010/03/19/quick-and-easy-head-pose-estimation-with-opencv-w-code/))
 * Draw the gaze vector on screen
 
